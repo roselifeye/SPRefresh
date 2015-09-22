@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B9345751BB1D90B00DF1E20 /* down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B9345741BB1D90B00DF1E20 /* down@2x.png */; settings = {ASSET_TAGS = (); }; };
 		8BC18D621BAB56B0003CB2C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC18D611BAB56B0003CB2C3 /* main.m */; };
 		8BC18D651BAB56B0003CB2C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC18D641BAB56B0003CB2C3 /* AppDelegate.m */; };
 		8BC18D681BAB56B0003CB2C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC18D671BAB56B0003CB2C3 /* ViewController.m */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B9345741BB1D90B00DF1E20 /* down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down@2x.png"; sourceTree = "<group>"; };
 		8BC18D5C1BAB56B0003CB2C3 /* SPRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC18D601BAB56B0003CB2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BC18D611BAB56B0003CB2C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		8BC18D871BAB56F1003CB2C3 /* SPRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				8B9345741BB1D90B00DF1E20 /* down@2x.png */,
 				8BC18D881BAB5706003CB2C3 /* SPRefresh.h */,
 				8BC18D891BAB5706003CB2C3 /* SPRefresh.m */,
 				8BC18D8B1BAB573A003CB2C3 /* SPBlockTypeDef.h */,
@@ -214,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B9345751BB1D90B00DF1E20 /* down@2x.png in Resources */,
 				8BC18D6B1BAB56B0003CB2C3 /* Main.storyboard in Resources */,
 				8BC18D701BAB56B0003CB2C3 /* LaunchScreen.xib in Resources */,
 				8BC18D6D1BAB56B0003CB2C3 /* Images.xcassets in Resources */,
@@ -432,6 +436,7 @@
 				8BC18D811BAB56B0003CB2C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BC18D821BAB56B0003CB2C3 /* Build configuration list for PBXNativeTarget "SPRefreshTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +445,7 @@
 				8BC18D841BAB56B0003CB2C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

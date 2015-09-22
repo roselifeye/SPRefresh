@@ -153,7 +153,7 @@
     if (!isHeader) {
         CGRect frame = CGRectMake(0, contentViewHeight, refreshViewWidth, refreshViewHeight);
         if (contentViewHeight < _refreshScrollView.frame.size.height) {
-            frame.origin.y = _refreshScrollView.frame.size.height;
+            frame.origin.y = _refreshScrollView.frame.size.height - refreshViewHeight;
         }
         [refrehView setFrame:frame];
     }
@@ -170,7 +170,7 @@
                     }
                 } else {
                     int currentBottomPosition = currentPosition - (contentViewHeight - _refreshScrollView.frame.size.height);
-                    if ((currentBottomPosition > 0) && (contentViewHeight > _refreshScrollView.frame.size.height)) {
+                    if ((currentBottomPosition > 0)) {
                         if (currentBottomPosition > refreshViewHeight*1.5) {
                             [self setRefreshText:_beginText andImageTransform:M_PI*2];
                         } else {
